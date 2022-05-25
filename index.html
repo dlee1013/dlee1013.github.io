@@ -1,1 +1,312 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>David's Portfolio</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="path/to/font-awesome/css/font-awesome.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+
+	<body>
+		<main>
+			<header id="header">
+				<nav class="navbar">
+					<div class="container">
+						<div class="links">
+							<ul>
+								<li>
+									<a href="#header">Home</a>
+								</li>
+								<li>
+									<a href="#about">About</a>
+								</li>
+								<li>
+									<a href="#works">Projects</a>
+								</li>
+								<li>
+									<a href="#contact">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+
+				<div class="header-content">
+					<div class="container grid-2">
+						<div class="column-1">
+							<h1 class="header-title">Hello, I am David Lee</h1>
+							<p class="text">
+								Aspiring software developer with expeirence in full stack
+								development
+							</p>
+							<a href="./files/FastTrack David Lee Resume.pdf" class="btn"
+								>Download Resume</a
+							>
+						</div>
+						<div class="column-2 image">
+							<img
+								id="image"
+								class="img-element"
+								alt="GitHub profile picture"
+							/>
+							<p id="bio"></p>
+							<p id="hireable_status"></p>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<section class="about section">
+				<div class="container">
+					<div class="section-header">
+						<h3 id="about" class="title" data-title="Who Am I">About me</h3>
+					</div>
+					<div class="section-body">
+						<p class="text">
+							I was born in Dubai and at around 1st grade, I moved to Chandler
+							Arizona, a city southeast of Phoenix and have lived here ever
+							since. <br /><br />
+
+							I've always been exposed to technology at a young age. I'm an avid
+							gamer and have been gaming since I was in elementary school with
+							handheld devices like Nintendo Gameboys. As I got older, I started
+							getting into PC gaming and I became more interested in how
+							computers operated and along with my dad being a software
+							engineer, my curiosity for computers and programming grew which
+							then led me to majoring in software engineering. Eventually, I
+							graduated from Arizona State University with a bachelor's degree
+							in Software Engineering.<br /><br />
+
+							During my senior year in college, we were given the opportunity to
+							work with a company as software developers and aid them in any
+							software projects they needed to accomplish to help advance their
+							product they were developing. I got the chance to work with a
+							small startup company, Fenoto Technologies and we created an
+							Android application and a Google Chrome extension to display
+							images from your local device or using the web to one of their
+							e-paper tablet devices. Their overarching goal was to develop a
+							solution for the use and consumption of paper. Paper
+							advertisements you see in public in the mall and bus stops as well
+							as calendars used for store schedules or paper calendars you hang
+							up on your fridge were the use cases specifically targeted in
+							replacing with an e-paper tablet. I was exposed to wireframing
+							using Adobe XD, using Android Studio, and working with JavaScript
+							to code a google chrome extension.<br /><br />
+
+							Outside of programming, I enjoy playing basketball. I've been
+							playing basketball since I was in 1st grade and played all the way
+							into high school where I played on the varsity team. Now I play
+							video games during for most of my free time. I also like to listen
+							to a lot of music and watch the NBA and I'm a huge Suns fan!
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="works section">
+				<div class="container">
+					<div class="section-header">
+						<h3 id="works" class="title" data-title="GitHub">My Projects</h3>
+					</div>
+					<div class="works-wrapper">
+						<div class="work-wrap">
+							<div class="work-card">
+								<div class="work-image">
+									<a
+										href="https://github.com/fasttrackd-student-work/spring-assessment-social-media-sprint-4-2022-team-1"
+									>
+										<img
+											src="./img/twitter-api.png"
+											alt="Twitter API code snippet"
+									/></a>
+								</div>
+								<div class="work-content">
+									<div class="work-info">
+										<h5 class="work-date">April 22, 2022</h5>
+									</div>
+									<h3 class="title-sm">Twitter API</h3>
+									<p class="work-text">
+										A RESTful web service with various endpoints for creating,
+										modifying, and transferring customizable tweets and users to
+										and from the server via basic CRUD operations and other HTTP
+										requests created in collaboration with other developers
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="work-wrap">
+							<div class="work-card">
+								<div class="work-image">
+									<a
+										href="https://github.com/fasttrackd-student-work/react-developer-duel-dlee1013"
+									>
+										<img src="./img/dev-duel.png" alt="Dev Duel code snippet"
+									/></a>
+								</div>
+								<div class="work-content">
+									<div class="work-info">
+										<h5 class="work-date">May 6, 2022</h5>
+									</div>
+									<h3 class="title-sm">Dev Duel</h3>
+									<p class="work-text">
+										A full-stack application that interfaces with GitHub's API
+										in order to aggregate, transform, and display a given user's
+										profile and repository data
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="work-wrap">
+							<div class="work-card">
+								<div class="work-image">
+									<a
+										href="https://github.com/fasttrackd-student-work/react-assessment-whos-who-sprint-4-team-2"
+									>
+										<img
+											src="./img/whos-who-game.png"
+											alt="Who's Who code snippet"
+									/></a>
+								</div>
+								<div class="work-content">
+									<div class="work-info">
+										<h5 class="work-date">May 16, 2022</h5>
+									</div>
+									<h3 class="title-sm">Who's Who Game</h3>
+									<p class="work-text">
+										A front-end React application, created in collaboration with
+										other developers, that interfaces with Spotify's API in
+										order to get genres, artists, and sample songs. The user
+										will then be able to listen to songs and guess which artist
+										created it
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="contact" id="contact">
+				<div class="container">
+					<div class="contact-box">
+						<div class="contact-info">
+							<h3 class="title">Get in touch</h3>
+							<p class="text">Contact information</p>
+							<div class="information-wrap">
+								<div class="information">
+									<div class="contact-icon">
+										<i class="fas fa-map-marker-alt"></i>
+									</div>
+									<p class="info-text">Chandler, AZ</p>
+								</div>
+
+								<div class="information">
+									<div class="contact-icon">
+										<i class="fas fa-paper-plane"></i>
+									</div>
+									<p class="info-text">davidjlee1013@gmail.com</p>
+								</div>
+
+								<div class="information">
+									<div class="contact-icon">
+										<i class="fas fa-phone-alt"></i>
+									</div>
+									<p class="info-text">480-319-2804</p>
+								</div>
+							</div>
+						</div>
+
+						<form action="https://formspree.io/f/xrgjowpr" method="POST">
+							<div id="contact" class="contact-form">
+								<h3 class="title">Contact me</h3>
+								<div class="row">
+									<input
+										type="text"
+										class="contact-input"
+										placeholder="First Name"
+									/>
+									<input
+										type="text"
+										class="contact-input"
+										placeholder="Last Name"
+									/>
+								</div>
+
+								<div class="row">
+									<input
+										type="text"
+										class="contact-input"
+										placeholder="Phone"
+									/>
+									<input
+										type="email"
+										class="contact-input"
+										placeholder="Email"
+									/>
+								</div>
+
+								<div class="row">
+									<textarea
+										name="message"
+										class="contact-input textarea"
+										placeholder="Message"
+									></textarea>
+								</div>
+								<button type="submit" class="btn">Send</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer-content">
+				<ul class="socials">
+					<li>
+						<a href="https://twitter.com/daiIee_"
+							><i class="fa fa-twitter"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/david_j_lee/"
+							><i class="fa fa-instagram"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/david-lee-9b794620b/"
+							><i class="fa fa-linkedin-square"></i
+						></a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-bottom">
+				<p>Copyright &copy;2022. Designed by <span>David Lee</span></p>
+			</div>
+		</footer>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+			integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="./js/app.js"></script>
+	</body>
+</html>
